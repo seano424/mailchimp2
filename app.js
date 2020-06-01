@@ -3,7 +3,6 @@ const bodyParser = require('body-parser')
 const https = require('https')
 
 const app = express()
-const port = 3000
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static("public"))
@@ -74,8 +73,8 @@ app.post("/homepage", function(req, res) {
   res.sendFile(__dirname + "/homepage.html");
 })
 
-app.listen(port, function () {
-  console.log(`Server Starts on ${port}`)
+app.listen(process.env.PORT || 3000, function () {
+  console.log(`Server Starts on port 3000`)
 });
 
 //api key: 89b92ac82b266a53e3120c4ce5de58c2-us10
