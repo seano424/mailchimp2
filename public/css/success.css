@@ -1,0 +1,16 @@
+.card {
+  border-color: #FC055E;
+}
+
+.card-header {
+  background-color: #FC055E;
+  color: white;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  background-color: deeppink;
+}

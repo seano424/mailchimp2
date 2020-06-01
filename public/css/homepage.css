@@ -1,0 +1,19 @@
+
+.photos {
+  padding-top: 4%;
+}
+
+h2 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 3em;
+  padding-left: 2.3%;
+  border-bottom: .1px solid rgb(232, 228, 226);
+}
+
+img {
+  width: 30%;
+  float: left;
+  padding-left: 2.3%;
+  padding-bottom: 2.3%;
+}
